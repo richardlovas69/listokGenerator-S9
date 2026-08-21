@@ -272,6 +272,7 @@ div.body-chat-inner {
 	flex-wrap: wrap;
 	flex-flow: column;
 	overflow-y: scroll;
+	margin-bottom: 40px;
 }
 div.message-active {
 	background-color: #a6baff;
