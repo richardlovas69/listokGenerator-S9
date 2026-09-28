@@ -260,7 +260,7 @@ div.call-settings-icon img {
 
 div.body-chat {
 	width: 100%;
-	height: auto;
+	height: 700px;
 	background-color:#121318;
 	border-top-left-radius:20px ;
 	border-top-right-radius:20px ;
@@ -272,7 +272,6 @@ div.body-chat-inner {
 	flex-wrap: wrap;
 	flex-flow: column;
 	overflow-y: scroll;
-	margin-bottom: 40px;
 }
 div.message-active {
 	background-color: #a6baff;
@@ -327,28 +326,28 @@ div.textbar {
 	justify-content: flex-start;
 	align-items: center;
 	position: absolute;
-	bottom: 0;
+	bottom:0;
 	left:0;
+	padding: 5px 5px;
 
 }
 div.textbar-inner {
-	width: 240px;
+	width: 230px;
 	display: inherit;
 	flex-wrap: nowrap;
 	flex-direction: row;
-	flex-grow: 4;
 	justify-content: flex-start;
 	align-items: center;
 	background-color: #1e1f24;
-	margin-right: 15px;
-	padding: 10px 5px 10px 20px;
+	margin-right: 10px;
+	padding: 10px 0 10px 10px;
 	border-radius: 9999px;
-	margin:0 5px 10px 10px;
+	/*margin:0 5px 10px 10px;*/
 
 
 }
 #send input {
-	width: 115px;
+	width: 90px;
 	border-radius: 9999px;
 	border-style: none;
 	resize: none;
@@ -372,7 +371,6 @@ div.textbar-inner {
 #add-icon {
 	width: 35px;
 	height: auto;
-	margin-right: 10px;
 } 
 div.textbar img {
 	width: 40px;
@@ -387,22 +385,20 @@ div.textbar-inner img {
 div.textbar-voice {
 	height: auto;
 	display: flex;
-	flex-grow: 1;
 	justify-content: center;
 	align-items: center;
 	background-color: #1e1f24;
 	border-radius: 999px;
-	margin-right: 10px;
 	padding: 6px;
-	margin-bottom: 10px;
 }
 div.textbar-voice a  {
 	height: auto;
 	display: flex;
+	padding: 2px;
 }
 div.textbar-voice a img {
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 }
 
 
